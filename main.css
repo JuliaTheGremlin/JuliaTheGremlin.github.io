@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+p{
+	background-color:#000000;
+}
+
+strong{
+	color: #FFFFFF;
+	font-style: italic;
+}
+.title{
+	color:#FF2F6E
+}
+.maininfo{
+	color:#D8DB45}

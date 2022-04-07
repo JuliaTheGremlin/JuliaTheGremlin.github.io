@@ -1,0 +1,60 @@
+@charset "utf-8";
+p{
+	
+}
+.mytitle{
+	background-color: indianred;
+	 background-image: url("storyboard3.jpg");
+	color:#1D1515;
+	height: 300px;
+	background-size: cover;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 40px;
+	text-align: center;
+	padding: 100px;
+	padding-right: 50px;
+}
+.showcase {
+	display: none;
+	position: absolute;
+	width: 50%;
+	margin: auto;
+  position: absolute;
+  top: 30px; left: 0; bottom: 30px; right: 0;
+
+	z-index: 10;
+	text-align: center;
+}
+.closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  color: white;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+.allwork{
+	width: 100%;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	gap: 5px;
+}
+
+
+.mywork{
+	height: 300px;
+	background-color:marroon;
+	overflow: hidden;
+}
+
+.mywork img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: 0.5s ease-in-out;
+}
+.mywork img:hover{
+	transform: scale(1.5);
+}
